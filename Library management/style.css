@@ -1,0 +1,72 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+ul li a
+{
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 1s ease;
+  display:block;
+}
+ul li a:hover
+{
+  background-color: black;
+  color: white;
+}
+ul li ul li
+{
+  display:none;
+}
+ul li:hover ul li
+{
+ display:block;
+}
+
+
+#about
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+  font-weight: bold;
+}
+#about .btn
+{
+  margin-top:20px;
+  margin-bottom:30px;
+}
+.about-content
+{
+  padding-top: 20px;
+  font-size: 120%;
+  font-weight: bold;
+}
+.skills-bar p
+{
+  margin-bottom: 6px;
+  font-weight:600;
+}
+.progress-bar
+{
+  border-radius:16px;
+}
+.progress
+{
+  border-radius:16px !important;
+  margin-bottom:20px;
+}
